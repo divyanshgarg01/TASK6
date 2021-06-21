@@ -152,8 +152,8 @@ while True:
             print("face succesfully")
             conn = smtplib.SMTP('smtp.gmail.com',587)
             conn.starttls()
-            conn.login('divyanshgargagra@gmail.com','9319886807')
-            conn.sendmail('divyanshgargagra@gmail.com','akashagarwal687999@gmail.com','Subject: face detect sucessfully\n\n THIS IS FACE OF YOUR JAI KISHAN')
+            conn.login('divyanshgargagra@gmail.com','xxxxxx')
+            conn.sendmail('divyanshgargagra@gmail.com','xxxxxx','Subject: face detect sucessfully\n\n THIS IS FACE OF YOUR Divyansh garg')
             conn.quit()
             detect=True
            
